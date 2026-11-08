@@ -1,0 +1,10 @@
+palabra_nodo = input("palabra clave elegida del tablero: ")
+integrantes = (input("nombres de los integrantes del puesto: "))
+numero_fila = int(input("numero de fila donde estan ubicados: "))
+marca_portatil = input("marca del portatil del puesto: ")
+cargadores_conectados = int(input("cantidad de cargadores conectados: "))
+version_python = float(input("version de python instalada: "))
+
+print("la palabra clave es",palabra_nodo,"la marca del portatil es",marca_portatil,"los integrantes",integrantes)
+print("el numero de fila es" +str(numero_fila)+ "la cantidad de cargadores conectado es" +str(cargadores_conectados)+ "la version de python es" +str(version_python))
+print(f"la palabra que el grupo escogio fue {palabra_nodo} sus integrantes son {integrantes} el numero de fila es {numero_fila} la marca del portatil es {marca_portatil} los cargadores conectados en la fila {numero_fila} son {cargadores_conectados} y la vesion de python es {version_python}")

@@ -1,0 +1,11 @@
+print("este programa ayuda a saber cuanto pesan las cajas1 y caja2")
+marca_cajas1=input("¿cual es el nombre de la marca de la caja1 que usted compro?")
+marca_cajas2=input("¿cual es el nombre de la marca de la caja2 que usted compro?")
+caja_1=float(input("¿cuantos kg pesa una caja1?"))
+caja_2=float(input("¿cuantos kg pesa una caja2?"))
+cantidad_1=int(input("¿cuantas cajas1 de usted compro?"))
+cantidad_2=int(input("¿cuantas cajas2de usted compro?"))
+total_cajas=cantidad_1+cantidad_2
+total_peso=(caja_1*cantidad_1)+(caja_2*cantidad_2)
+print("el total de numero de cajas que usted compro  es de: ",total_cajas)
+print("el total de kg que pesan las cajas de zapatos es de: ",total_peso)

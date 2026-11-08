@@ -1,0 +1,7 @@
+print("este programa esta diseñadopara que puedan calcular el costo de un tatuaje que dura horas")
+hora_cobra=float(input("¿cual es el costo de la hora en un tatuaje?"))
+duracion=float(input("¿cuantas horas dura el tatuaje?"))
+ml=int(input("¿cuantos ml de tinta uso en el tatuaje?"))
+costo_tinta=float(input("¿cual es el costo de la tinta por ml?"))
+costo_total=(hora_cobra*duracion)+(ml*costo_tinta)
+print("el costo total del tatuaje es de: ",costo_total)
